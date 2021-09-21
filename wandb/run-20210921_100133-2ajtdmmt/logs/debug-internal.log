@@ -1,0 +1,167 @@
+2021-09-21 10:01:45,682 INFO    MainThread:49634 [internal.py:wandb_internal():89] W&B internal server running at pid: 49634, started at: 2021-09-21 10:01:45.682451
+2021-09-21 10:01:45,684 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: check_version
+2021-09-21 10:01:45,684 INFO    WriterThread:49634 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/run-2ajtdmmt.wandb
+2021-09-21 10:01:45,686 DEBUG   SenderThread:49634 [sender.py:send():182] send: header
+2021-09-21 10:01:45,686 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: check_version
+2021-09-21 10:01:46,297 DEBUG   SenderThread:49634 [sender.py:send():182] send: run
+2021-09-21 10:01:46,299 DEBUG   SenderThread:49634 [git.py:repo():33] git repository is invalid
+2021-09-21 10:01:46,944 INFO    SenderThread:49634 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files
+2021-09-21 10:01:46,944 INFO    SenderThread:49634 [sender.py:_start_run_threads():743] run started: 2ajtdmmt with start time 1632198705
+2021-09-21 10:01:46,944 DEBUG   SenderThread:49634 [sender.py:send():182] send: summary
+2021-09-21 10:01:46,944 INFO    SenderThread:49634 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-21 10:01:46,945 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: run_start
+2021-09-21 10:01:46,947 DEBUG   HandlerThread:49634 [meta.py:__init__():40] meta init
+2021-09-21 10:01:46,948 DEBUG   HandlerThread:49634 [meta.py:__init__():54] meta init done
+2021-09-21 10:01:46,948 DEBUG   HandlerThread:49634 [meta.py:probe():211] probe
+2021-09-21 10:01:46,954 DEBUG   HandlerThread:49634 [git.py:repo():33] git repository is invalid
+2021-09-21 10:01:46,954 DEBUG   HandlerThread:49634 [meta.py:_save_code():90] save code
+2021-09-21 10:01:46,954 WARNING HandlerThread:49634 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-21 10:01:46,954 DEBUG   HandlerThread:49634 [meta.py:_save_pip():58] save pip
+2021-09-21 10:01:46,954 DEBUG   HandlerThread:49634 [meta.py:_save_pip():72] save pip done
+2021-09-21 10:01:46,955 DEBUG   HandlerThread:49634 [meta.py:_save_conda():79] save conda
+2021-09-21 10:01:47,946 INFO    Thread-8  :49634 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/conda-environment.yaml
+2021-09-21 10:01:47,946 INFO    Thread-8  :49634 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/wandb-summary.json
+2021-09-21 10:01:47,946 INFO    Thread-8  :49634 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/requirements.txt
+2021-09-21 10:01:52,950 INFO    Thread-8  :49634 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/output.log
+2021-09-21 10:01:54,203 DEBUG   HandlerThread:49634 [meta.py:_save_conda():87] save conda done
+2021-09-21 10:01:54,203 DEBUG   HandlerThread:49634 [meta.py:probe():249] probe done
+2021-09-21 10:01:54,226 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-21 10:01:54,226 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: stop_status
+2021-09-21 10:01:54,951 INFO    Thread-8  :49634 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/conda-environment.yaml
+2021-09-21 10:01:54,951 INFO    Thread-8  :49634 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/output.log
+2021-09-21 10:01:54,951 INFO    Thread-8  :49634 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/wandb-metadata.json
+2021-09-21 10:01:55,532 DEBUG   SenderThread:49634 [sender.py:send():182] send: files
+2021-09-21 10:01:55,535 INFO    SenderThread:49634 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-21 10:01:56,851 INFO    Thread-11 :49634 [upload_job.py:push():137] Uploaded file /tmp/tmpg2sitcxgwandb/25mqad5h-wandb-metadata.json
+2021-09-21 10:02:10,533 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-21 10:02:10,533 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: stop_status
+2021-09-21 10:02:15,192 DEBUG   SenderThread:49634 [sender.py:send():182] send: stats
+2021-09-21 10:02:21,988 DEBUG   SenderThread:49634 [sender.py:send():182] send: telemetry
+2021-09-21 10:02:21,989 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:21,989 DEBUG   SenderThread:49634 [sender.py:send():182] send: exit
+2021-09-21 10:02:21,989 INFO    SenderThread:49634 [sender.py:send_exit():291] handling exit code: 0
+2021-09-21 10:02:21,989 INFO    SenderThread:49634 [sender.py:send_exit():293] handling runtime: 35
+2021-09-21 10:02:21,993 INFO    SenderThread:49634 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-21 10:02:21,993 INFO    SenderThread:49634 [sender.py:send_exit():303] send defer
+2021-09-21 10:02:21,993 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:21,993 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:21,993 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-21 10:02:21,993 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:21,994 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-21 10:02:21,994 INFO    SenderThread:49634 [sender.py:transition_state():316] send defer: 1
+2021-09-21 10:02:21,994 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:21,994 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-21 10:02:22,056 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:22,056 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-21 10:02:22,056 INFO    SenderThread:49634 [sender.py:transition_state():316] send defer: 2
+2021-09-21 10:02:22,056 DEBUG   SenderThread:49634 [sender.py:send():182] send: stats
+2021-09-21 10:02:22,057 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:22,057 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-21 10:02:22,057 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:22,057 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-21 10:02:22,057 INFO    SenderThread:49634 [sender.py:transition_state():316] send defer: 3
+2021-09-21 10:02:22,057 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:22,057 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-21 10:02:22,057 DEBUG   SenderThread:49634 [sender.py:send():182] send: summary
+2021-09-21 10:02:22,058 INFO    SenderThread:49634 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-21 10:02:22,058 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:22,058 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-21 10:02:22,058 INFO    SenderThread:49634 [sender.py:transition_state():316] send defer: 4
+2021-09-21 10:02:22,058 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:22,058 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-21 10:02:22,058 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:22,058 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-21 10:02:22,096 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:22,668 INFO    SenderThread:49634 [sender.py:transition_state():316] send defer: 5
+2021-09-21 10:02:22,668 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:22,668 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:22,668 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-21 10:02:22,669 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:22,669 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-21 10:02:22,669 INFO    SenderThread:49634 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-21 10:02:22,770 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:22,957 INFO    SenderThread:49634 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/wandb-summary.json
+2021-09-21 10:02:22,957 INFO    SenderThread:49634 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/config.yaml
+2021-09-21 10:02:22,958 INFO    SenderThread:49634 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/output.log
+2021-09-21 10:02:22,958 INFO    SenderThread:49634 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files
+2021-09-21 10:02:22,958 INFO    SenderThread:49634 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/conda-environment.yaml conda-environment.yaml
+2021-09-21 10:02:22,958 INFO    SenderThread:49634 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/wandb-metadata.json wandb-metadata.json
+2021-09-21 10:02:22,958 INFO    SenderThread:49634 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/wandb-summary.json wandb-summary.json
+2021-09-21 10:02:22,964 INFO    SenderThread:49634 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/config.yaml config.yaml
+2021-09-21 10:02:22,965 INFO    SenderThread:49634 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/output.log output.log
+2021-09-21 10:02:22,974 INFO    SenderThread:49634 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/requirements.txt requirements.txt
+2021-09-21 10:02:22,981 INFO    SenderThread:49634 [sender.py:transition_state():316] send defer: 6
+2021-09-21 10:02:22,981 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:22,982 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:22,982 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-21 10:02:22,986 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:22,986 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-21 10:02:22,986 INFO    SenderThread:49634 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-21 10:02:23,084 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,084 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:23,187 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,187 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:23,288 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,289 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:23,390 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,390 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:23,493 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,493 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:23,595 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,597 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:23,701 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,701 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:23,803 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,803 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:23,904 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:23,904 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:24,007 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:24,007 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:24,108 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:24,109 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:24,210 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:24,210 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:24,312 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:24,312 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:24,335 INFO    Thread-16 :49634 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/requirements.txt
+2021-09-21 10:02:24,355 INFO    Thread-13 :49634 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/wandb-summary.json
+2021-09-21 10:02:24,360 INFO    Thread-14 :49634 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/config.yaml
+2021-09-21 10:02:24,371 INFO    Thread-15 :49634 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/output.log
+2021-09-21 10:02:24,413 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:24,414 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:24,475 INFO    Thread-12 :49634 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/files/conda-environment.yaml
+2021-09-21 10:02:24,515 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:24,515 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:24,616 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:24,616 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:24,675 INFO    Thread-7  :49634 [sender.py:transition_state():316] send defer: 7
+2021-09-21 10:02:24,676 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:24,676 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-21 10:02:24,676 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:24,676 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-21 10:02:24,718 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:25,131 INFO    SenderThread:49634 [sender.py:transition_state():316] send defer: 8
+2021-09-21 10:02:25,131 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:25,132 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:25,132 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-21 10:02:25,132 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:25,132 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-21 10:02:25,132 INFO    SenderThread:49634 [sender.py:transition_state():316] send defer: 9
+2021-09-21 10:02:25,133 DEBUG   SenderThread:49634 [sender.py:send():182] send: final
+2021-09-21 10:02:25,133 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: defer
+2021-09-21 10:02:25,133 DEBUG   SenderThread:49634 [sender.py:send():182] send: footer
+2021-09-21 10:02:25,133 INFO    HandlerThread:49634 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-21 10:02:25,133 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: defer
+2021-09-21 10:02:25,133 INFO    SenderThread:49634 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-21 10:02:25,233 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-21 10:02:25,233 DEBUG   SenderThread:49634 [sender.py:send_request():196] send_request: poll_exit
+2021-09-21 10:02:25,233 INFO    SenderThread:49634 [file_pusher.py:join():182] waiting for file pusher
+2021-09-21 10:02:25,235 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-21 10:02:25,235 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-21 10:02:25,236 DEBUG   HandlerThread:49634 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-21 10:02:25,236 INFO    HandlerThread:49634 [handler.py:finish():683] shutting down handler
+2021-09-21 10:02:26,133 INFO    WriterThread:49634 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Gender-Clf/wandb/run-20210921_100133-2ajtdmmt/run-2ajtdmmt.wandb
+2021-09-21 10:02:26,234 INFO    SenderThread:49634 [sender.py:finish():979] shutting down sender
+2021-09-21 10:02:26,234 INFO    SenderThread:49634 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-21 10:02:26,234 INFO    SenderThread:49634 [file_pusher.py:join():182] waiting for file pusher
+2021-09-21 10:02:26,236 INFO    MainThread:49634 [internal.py:handle_exit():76] Internal process exited
